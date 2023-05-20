@@ -19,7 +19,7 @@
   });
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
   button:focus,
   button:focus-visible {
     outline: none;
