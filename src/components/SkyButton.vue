@@ -1,7 +1,7 @@
 <template>
   <a-button v-bind="$props" @click="$emit('click')">
     <template #icon>
-      <a-icon :type="iconType" />
+      <slot></slot>
     </template>
     <slot></slot>
   </a-button>
@@ -9,17 +9,15 @@
 
 <script>
   import { defineComponent } from "vue";
-  import { Button, Icon } from "ant-design-vue";
+  import { Button } from "ant-design-vue";
 
   export default defineComponent({
     components: {
       "a-button": Button,
-      'a-icon': Icon,
     },
     inheritAttrs: false,
     props: {
       ...Button.props,
-      ...Icon.props,
     },
   });
 </script>
