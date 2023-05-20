@@ -1,0 +1,13 @@
+stages:
+  - release
+
+release:
+  stage: release
+  image: node:latest
+  script:
+    - echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" > .npmrc
+    - npm login --registry=https://registry.npmjs.org/
+    - npm run build
+    - npm publish
+  only:
+    - main
