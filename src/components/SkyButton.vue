@@ -1,8 +1,5 @@
 <template>
   <a-button v-bind="$props" @click="$emit('click')">
-    <template #icon>
-      <slot></slot>
-    </template>
     <slot></slot>
   </a-button>
 </template>
