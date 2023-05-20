@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.3](https://github.com/johnandrade18/sky-design-system/compare/v1.1.2...v1.1.3) (2023-05-20)
+
+
+### Bug Fixes
+
+* Correccion se agrego iconos a los botones ([60b0980](https://github.com/johnandrade18/sky-design-system/commit/60b0980d29288d9214b88dd598ac2984e872e0fc))
+* Correccion se agrego iconos a los botones ([47f2c6f](https://github.com/johnandrade18/sky-design-system/commit/47f2c6ffc3e2b1c63b8525b8037ae5b5b8e661a8))
+
 ### [1.1.2](https://github.com/johnandrade18/sky-design-system/compare/v1.1.1...v1.1.2) (2023-05-20)
 
 
