@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.5](https://github.com/johnandrade18/sky-design-system/compare/v1.1.4...v1.1.5) (2023-05-21)
+
+
+### Bug Fixes
+
+* Correccion configuraciones del ant design en el proyecto ([016fdd9](https://github.com/johnandrade18/sky-design-system/commit/016fdd94d551d4bf339a0ced295eb3a13d8ddc88))
+
 ### [1.1.4](https://github.com/johnandrade18/sky-design-system/compare/v1.1.3...v1.1.4) (2023-05-20)
 
 
