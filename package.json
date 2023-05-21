@@ -15,7 +15,7 @@
     "release": "pnpm run build && pnpm run release:version && pnpm run release:push",
     "release:version": "standard-version",
     "release:push": "git push --follow-tags origin main",
-    "publish": "pnpm run release && npm publish"
+    "publish": "pnpm run release && Jnpm publish"
   },
   "dependencies": {
     "@ant-design/icons-vue": "^6.1.0",
