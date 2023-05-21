@@ -1,7 +1,7 @@
 {
   "name": "sky-system-design",
   "private": false,
-  "version": "1.1.7",
+  "version": "1.1.8",
   "main": "dist/sky-system-design.umd.js",
   "module": "dist/sky-system-design.es.js",
   "keywords": [
@@ -15,7 +15,7 @@
     "release": "pnpm run build && pnpm run release:version && pnpm run release:push",
     "release:version": "standard-version",
     "release:push": "git push --follow-tags origin main",
-    "publish": "pnpm run release && Jnpm publish"
+    "publish:version": "pnpm run release && npm publish"
   },
   "dependencies": {
     "@ant-design/icons-vue": "^6.1.0",
