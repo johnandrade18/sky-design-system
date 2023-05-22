@@ -1,6 +1,6 @@
 <template>
   <a-button v-bind="$props" @click="$emit('click')">
-    <slot> </slot>
+    <slot></slot>
   </a-button>
 </template>
 
@@ -9,9 +9,8 @@
   import { Button } from "ant-design-vue";
 
   export default defineComponent({
-    name: "SkyButton",
     components: {
-      Button,
+      "a-button": Button,
     },
     inheritAttrs: false,
     props: {
