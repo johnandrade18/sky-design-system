@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.9](https://github.com/johnandrade18/sky-design-system/compare/v1.1.8...v1.1.9) (2023-05-22)
+
+
+### Bug Fixes
+
+* Correccion configuraciones parametros boton ([6978134](https://github.com/johnandrade18/sky-design-system/commit/6978134b3dfe5547aac174ce663cea16f968be23))
+
 ### [1.1.8](https://github.com/johnandrade18/sky-design-system/compare/v1.1.7...v1.1.8) (2023-05-21)
 
 ### [1.1.7](https://github.com/johnandrade18/sky-design-system/compare/v1.1.6...v1.1.7) (2023-05-21)
