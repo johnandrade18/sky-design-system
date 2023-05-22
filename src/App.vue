@@ -1,17 +1,16 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import SkyButton from './components/SkyButton.vue'
+import { DownloadOutlined } from "@ant-design/icons-vue";
 </script>
 
 <template>
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
-  </div>
-  <HelloWorld msg="Vite + Vue" />
+  <h1>Sky-Button</h1>
+  <SkyButton type="primary" shape="round" size="large">
+    <slot>
+      <DownloadOutlined />
+    </slot>
+    Button
+  </SkyButton>
 </template>
 
 <style scoped>

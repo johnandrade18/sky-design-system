@@ -1,7 +1,9 @@
-import { createApp } from "vue";
-import App from "./App.vue";
-import { setupAntd } from "./antdv";
+import { createApp } from 'vue';
+import App from './App.vue';
+import Antd from 'ant-design-vue'
+import 'ant-design-vue/dist/reset.css';
+import 'normalize.css'
 
 const app = createApp(App);
-setupAntd(app);
-app.mount("#app");
+app.use(Antd);
+app.mount('#app');

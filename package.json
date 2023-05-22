@@ -7,9 +7,12 @@
   "keywords": [
     "sky-system-design"
   ],
+  "files": [
+    "dist"
+  ],
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host 0.0.0.0 --port 8080",
     "build": "vite build",
     "preview": "vite preview",
     "release": "pnpm run build && pnpm run release:version && pnpm run release:push",
